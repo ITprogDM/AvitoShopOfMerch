@@ -1,0 +1,36 @@
+.DS_Store
+Thumbs.db
+
+# Go
+*.exe
+*.test
+*.out
+*.log
+*.swp
+*.swo
+*.tmp
+*.bak
+*.swp
+.idea/
+.vscode/
+*.lock
+bin/
+pkg/
+cover.out
+*.sum
+*.mod
+
+# Docker
+.env
+docker-compose.override.yml
+
+# IDE & Editors
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# GolangCI-Lint
+golangci-lint.cache
